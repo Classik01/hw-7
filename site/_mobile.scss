@@ -1,0 +1,142 @@
+@media (max-width: 767px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        background-image: url(img/bkg-mob.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 735px;
+    }
+
+    .header {
+        align-items: center;
+        &__text {
+            font-size: 32px;
+            text-align: center;
+        }
+
+        &__content {
+            display: none;
+            &-mob {
+                font-size: 14px;
+                text-align: center;
+                padding-bottom: 32px;
+                display: block;
+                color: #ffffff73;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 32px;
+            }
+        }
+    }
+
+    .middle {
+        height: 1221px;
+    }
+
+    .games {
+        align-items: center;
+        &__game {
+            width: 343px;
+        }
+    }
+
+    .middle1 {
+        height: 653px;
+    }
+
+    .seasons {
+        padding-top: 51px;
+        flex-direction: column;
+        row-gap: 64px;
+        &__content {
+            align-items: center;
+            &-title {
+                font-size: 32px;
+            }
+            &-text {
+                display: none;
+                &-mob {
+                    display: block;
+                    color: #ffffff73;
+                    text-align: center;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 22px;
+                }
+            }
+        }
+        &__gamepad {
+            display: none;
+            &-mob {
+                display: block;
+            }
+        }
+    }
+
+    .middle2 {
+        height: 653px;
+    }
+
+    .words {
+        padding-top: 51px;
+        flex-direction: column-reverse;
+        row-gap: 64px;
+        &__content {
+            align-items: center;
+            &-title {
+                font-size: 32px;
+            }
+            &-text {
+                display: none;
+                &-mob {
+                    display: block;
+                    color: #ffffff73;
+                    text-align: center;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 22px;
+                }
+            }
+        }
+        &__gamepad {
+            display: none;
+            &-mob {
+                display: block;
+            }
+        }
+    }
+
+    .middle3 {
+        height: 800px;
+    }
+
+    .riddles {
+        padding-top: 51px;
+        &__content {
+            &-title {
+                font-size: 32px;
+            }
+            &-text {
+                display: none;
+                &-mob {
+                    text-align: center;
+                    display: block;
+                    color: #ffffff73;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,51 @@
+@media (max-width: 1024px) {
+
+    .center {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        &__text {
+            text-align: center;
+        }
+        &__content {
+            text-align: center;
+        }
+    }
+
+    .games {
+        flex-wrap: wrap;
+    }
+
+    .middle {
+        height: 800px;
+    }
+
+    .seasons {
+        padding-top: 128px;
+        flex-direction: column;
+        row-gap: 64px;
+        &__content {
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    .words {
+        padding-top: 128px;
+        flex-direction: column-reverse;
+        row-gap: 64px;
+        &__content {
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    
+
+}
